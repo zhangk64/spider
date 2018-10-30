@@ -9,7 +9,7 @@ import threading
 # 请求一次数据
 def req(username=None, passwd=None):
     # login
-    login_url = "http://iijjijiijj.app2jsknacs.com/tools/ssc_ajax.ashx?A=GetLotteryOpen&S=jinli&U=mozhe64"
+    login_url = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     login_data = {
         "Action": "GetLotteryOpen",
         "LotteryCode": "1407",
@@ -18,20 +18,20 @@ def req(username=None, passwd=None):
         "SourceName": "APP"
     }
     headers = {
-        'Host': 'iijjijiijj.app2jsknacs.com',
+        'Host': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         'Connection': 'keep-alive',
         'Content-Length': '74',
         'Pragma': 'no-cache',
         'Cache-Control': 'no-cache',
-        'Origin': 'http://iijjijiijj.app2jsknacs.com',
+        'Origin': 'xxxxxxxxxxxxxxxxxxxx',
         'User-Agent': 'Mozilla/5.0 (Linux; Android 5.1.1; FRD-L19 Build/LMY48Z) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36',
         'content-type': 'application/x-www-form-urlencoded',
         'Accept': '*/*',
-        'Referer': 'http://iijjijiijj.app2jsknacs.com/lottery/K3/1407',
+        'Referer': 'xxxxxxxxxxxxxxxxxxxx',
         'Accept-Encoding': 'gzip, deflate',
         'Accept-Language': 'zh-CN,en-US;q=0.8',
-        'Cookie': 'C_SessionId=e91f9fb0-b403-4880-ab8f-4cbfc914927c; IVK=8c29b680',
-        'X-Requested-With': 'com.dafacloud.dafacloud01',
+        'Cookie': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        'X-Requested-With': 'xxxxxxxxxxxxxxxxxxxx',
     }
     r = requests.post(login_url, login_data, headers=headers)
     r.encoding = "utf-8"
