@@ -1,0 +1,1 @@
+爬 https://feed.watcherlab.com/rules/yara/webshell/ 中的yara规则数据，可用于webshell检测。
